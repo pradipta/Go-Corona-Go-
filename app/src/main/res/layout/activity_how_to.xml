@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Corona, Go!"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:id="@+id/name"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions:"
+        android:textColor="#000000"
+        android:layout_below="@+id/name"
+        android:layout_centerInParent="true"
+        android:id="@+id/head"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:id="@+id/dummy"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/head"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap on the right portion of the screen to move the gun upwards, tap on the left of the screen to shoot. Missing a virus or making contact with one kills you"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:id="@+id/instructions"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dummy"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="150sp"
+        android:id="@+id/dummy2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/head"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source Code: "
+        android:textColor="#000000"
+        android:layout_below="@+id/dummy2"
+        android:layout_centerInParent="true"
+        android:id="@+id/sourceCode"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://github.com/pradiptasarma/Go-Corona-Go-"
+        android:textColor="#000000"
+        android:layout_below="@+id/sourceCode"
+        android:layout_centerInParent="true"
+        android:id="@+id/git"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

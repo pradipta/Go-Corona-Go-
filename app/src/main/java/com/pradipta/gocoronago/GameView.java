@@ -15,7 +15,6 @@ import android.view.MotionEvent;
 import android.view.SurfaceView;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 

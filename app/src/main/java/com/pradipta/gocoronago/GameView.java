@@ -15,6 +15,7 @@ import android.view.MotionEvent;
 import android.view.SurfaceView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
@@ -78,7 +79,7 @@ public class GameView extends SurfaceView implements Runnable {
 
         paint = new Paint();
         paint.setTextSize(128);
-        paint.setColor(Color.WHITE);
+        paint.setColor(Color.BLACK);
 
         viri = new Virus[4];
 
@@ -198,6 +199,7 @@ public class GameView extends SurfaceView implements Runnable {
                 canvas.drawBitmap(flight.getDead(), flight.x, flight.y, paint);
                 getHolder().unlockCanvasAndPost(canvas);
                 saveIfHighScore();
+//                showGameOverScreen();
                 waitBeforeExiting ();
                 return;
             }
@@ -212,6 +214,10 @@ public class GameView extends SurfaceView implements Runnable {
         }
 
     }
+
+//    private void showGameOverScreen() {
+//        activity.startActivity(new Intent(activity, GameOverActivity.class));
+//    }
 
     private void waitBeforeExiting() {
 

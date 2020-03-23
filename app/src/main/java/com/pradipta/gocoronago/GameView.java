@@ -198,7 +198,6 @@ public class GameView extends SurfaceView implements Runnable {
                 canvas.drawBitmap(flight.getDead(), flight.x, flight.y, paint);
                 getHolder().unlockCanvasAndPost(canvas);
                 saveIfHighScore();
-//                showGameOverScreen();
                 waitBeforeExiting ();
                 return;
             }
@@ -213,10 +212,6 @@ public class GameView extends SurfaceView implements Runnable {
         }
 
     }
-
-//    private void showGameOverScreen() {
-//        activity.startActivity(new Intent(activity, GameOverActivity.class));
-//    }
 
     private void waitBeforeExiting() {
 

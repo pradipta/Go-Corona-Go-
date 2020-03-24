@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pradipta.gocoronago">
+    package="com.pradipta.killemall">
 
     <application
         android:allowBackup="true"
@@ -15,10 +15,6 @@
             android:theme="@style/AppTheme.noActionBar" />
         <activity
             android:name=".HowToActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.noActionBar" />
-        <activity
-            android:name=".GameOverActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.noActionBar" />
         <activity

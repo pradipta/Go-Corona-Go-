@@ -15,7 +15,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go Corona, Go!"
+        android:text="Kill 'Em All"
         android:textColor="#000000"
         android:textSize="48sp"
         android:layout_centerHorizontal="true"

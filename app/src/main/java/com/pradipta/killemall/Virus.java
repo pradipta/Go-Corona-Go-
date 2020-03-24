@@ -1,12 +1,12 @@
-package com.pradipta.gocoronago;
+package com.pradipta.killemall;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 
-import static com.pradipta.gocoronago.GameView.screenRatioX;
-import static com.pradipta.gocoronago.GameView.screenRatioY;
+import static com.pradipta.killemall.GameView.screenRatioX;
+import static com.pradipta.killemall.GameView.screenRatioY;
 
 public class Virus {
     public int speed = 20;

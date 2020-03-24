@@ -1,4 +1,4 @@
-package com.pradipta.gocoronago;
+package com.pradipta.killemall;
 
 import android.content.Context;
 import android.content.Intent;

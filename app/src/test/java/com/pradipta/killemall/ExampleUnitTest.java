@@ -1,4 +1,4 @@
-package com.pradipta.gocoronago;
+package com.pradipta.killemall;
 
 import org.junit.Test;
 
